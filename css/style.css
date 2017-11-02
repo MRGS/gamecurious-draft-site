@@ -1,0 +1,37 @@
+/** ZOLANI'S STYLE EDITS **/
+
+h2 {
+	font-family: 'Vesper Libre', 'Palatino Linotype', serif;
+	text-transform: capitalize;
+	font-weight: 900;
+	font-size: 26pt;
+}
+
+p {
+	margin: 0 0 25px;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: normal;
+}
+
+p em {
+	font-family: Lora, serif;
+	font-size: 14pt;
+	font-weight: normal;
+
+}
+
+a {
+    color: #8092eb;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #55619d
+}
