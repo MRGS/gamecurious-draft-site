@@ -1,8 +1,11 @@
-
 /** ZOLANI'S STYLE EDITS **/
 
 body {
+	background-image: url(../img/txt1.jpg);
+	background-size: 25% 25%;
+	background-repeat: repeat;
 }
+
 h2 {
 	font-family: 'Vesper Libre', 'Palatino Linotype', serif;
 	text-transform: capitalize;
@@ -22,6 +25,7 @@ p {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: normal;
 }
+
 
 
 p em {
@@ -65,4 +69,8 @@ a:hover {
 #location p {
 	text-align: center;
 
+}
+#saferspace   {
+	background-image: url(../img/txt5.jpg);
+	background-size: 33% auto;
 }
