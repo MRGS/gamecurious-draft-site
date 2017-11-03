@@ -1,5 +1,8 @@
+
 /** ZOLANI'S STYLE EDITS **/
 
+body {
+}
 h2 {
 	font-family: 'Vesper Libre', 'Palatino Linotype', serif;
 	text-transform: capitalize;
@@ -19,6 +22,7 @@ p {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: normal;
 }
+
 
 p em {
 	font-family: Lora, serif;
@@ -43,6 +47,15 @@ a:hover {
 .intro-text{
 	text-align: center;	
 }
+
+
+#schedule img {
+	width: 80%;
+	height: 0%;
+	margin-bottom: 64px;
+
+}
+
 #location iframe {
 	float: left;
 	margin-bottom: 60px;
@@ -53,5 +66,3 @@ a:hover {
 	text-align: center;
 
 }
-
-

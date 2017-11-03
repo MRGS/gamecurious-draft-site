@@ -139,16 +139,19 @@ h6 {
     }
 }
 .intro {
-    display: table;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(https://gersande.com/gcdraft/putimageshere/intro-bg.jpg) bottom center no-repeat #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover
+	display: table;
+	height: auto;
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-position: bottom center no-repeat #fff;
+	background-image: url(../img/img1.jpg);
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover
 }
 
 .intro .intro-body {
