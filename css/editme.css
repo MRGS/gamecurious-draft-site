@@ -10,7 +10,8 @@ html {
     width: 100%
 }
 
-.navbar-custom,
+
+.navbar-custom, 
 body {
     background-color: #ffffff;
 }
@@ -32,16 +33,12 @@ body {
     
 }
 
+/** For Website Title **/
 .btn,
-.navbar-custom,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+h1{
+	font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-style: italic;
 }
 
 h1,
@@ -65,7 +62,9 @@ h6 {
 @media (min-width:768px) {
 }
 
+/** Font for Navbar Here **/
 .navbar-custom {
+	font-family: Montserrat;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
@@ -96,14 +95,11 @@ h6 {
     outline: 0
 }
 
-.navbar-custom a {
-    color: #fff
-}
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out
+    -webkit-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    transition: background .2s ease-in-out
 }
 
 .navbar-custom .nav li a:hover {
@@ -132,10 +128,10 @@ h6 {
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out
     }
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        background: #000;
-        border-bottom: 1px solid rgba(255, 255, 255, .3)
+    .navbar-custom.top-nav-collapse { /** Nav Bar Colour **/
+	padding: 0;
+	background-color: #000000;
+	border-bottom: 1px solid rgba(255, 255, 255, .3)
     }
 }
 .intro {
@@ -143,10 +139,8 @@ h6 {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
 	background-repeat: no-repeat;
 	background-position: bottom center no-repeat #fff;
-	background-image: url(../img/img1.jpg);
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -160,7 +154,8 @@ h6 {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px
+	font-size: 50px;
+	line-height: 64px;
 }
 
 .intro .intro-body .intro-text {
@@ -169,13 +164,15 @@ h6 {
 
 #faq {}
 
-@media (min-width:768px) {
+@media (min-width:1366px) {
     .intro {
         height: 100%;
         padding: 0
     }
+/** Website Title Size **/
     .intro .intro-body .brand-heading {
-        font-size: 100px
+	font-size: 60px;
+	line-height: 41px;
     }
     .intro .intro-body .intro-text {
         font-size: 26px
@@ -183,18 +180,17 @@ h6 {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 100%!important;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out
+	width: 70px;
+	height: 70px;
+	padding: 7px 16px;
+	border: 2px solid #fff;
+	border-radius: 100%!important;
+	font-size: 40px;
+	color: #fff;
+	background: 0 0;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out
 }
 
 .btn-circle:focus,

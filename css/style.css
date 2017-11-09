@@ -48,8 +48,20 @@ a:hover {
     color: #55619d
 }
 
+
+
+
 .intro-text{
-	text-align: center;	
+	text-align: center;
+}
+
+.intro {
+	color: #801515;
+	background-image: url(../img/img_banner.jpg);
+}
+
+.navbar-custom a {
+	color: #FFFFFF
 }
 
 
