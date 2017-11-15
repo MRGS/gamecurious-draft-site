@@ -48,9 +48,6 @@ a:hover {
     color: #55619d
 }
 
-
-
-
 .intro-text{
 	text-align: center;
 }
@@ -58,6 +55,7 @@ a:hover {
 .intro {
 	color: #801515;
 	background-image: url(../img/img_banner.jpg);
+	background-size: cover; 
 }
 
 /** Navbar link colour **/
@@ -90,8 +88,4 @@ a:hover {
 #saferspace   {
 	background-image: url(../img/txt5opaque.jpg);
 	background-size: 33% auto;
-}
-
-.safer-space-texts {
-	padding: 5px;
 }
