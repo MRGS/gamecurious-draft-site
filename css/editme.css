@@ -183,10 +183,10 @@ h6 {
 	width: 70px;
 	height: 70px;
 	padding: 7px 16px;
-	border: 2px solid #fff;
+	border: 2px solid #801515;
 	border-radius: 100%!important;
 	font-size: 40px;
-	color: #fff;
+	color: #801515;
 	background: 0 0;
 	-webkit-transition: background .3s ease-in-out;
 	-moz-transition: background .3s ease-in-out;
@@ -196,7 +196,7 @@ h6 {
 .btn-circle:focus,
 .btn-circle:hover {
     outline: 0;
-    color: #fff;
+    color: #9c1616;
     background: rgba(255, 255, 255, .1)
 }
 
