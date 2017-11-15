@@ -91,4 +91,5 @@ a:hover {
 #saferspace   {
 	background-image: url(../img/txt5opaque.jpg);
 	background-size: 20% auto;
+}.row .col-lg-6.col-lg-offset-3 img {
 }
