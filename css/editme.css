@@ -65,8 +65,9 @@ h6 {
 /** Font for Navbar Here **/
 .navbar-custom {
 	font-family: Montserrat;
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	font-weight: 700;
 }
 
 .navbar-custom .navbar-toggle {
@@ -102,9 +103,6 @@ h6 {
     transition: background .2s ease-in-out
 }
 
-.navbar-custom .nav li a:hover {
-    color: rgba(255, 255, 255, .8)
-}
 
 .navbar-custom .nav li.active {
     outline: 0
@@ -118,6 +116,8 @@ h6 {
     color: #fff
 }
 
+
+
 @media (min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -130,7 +130,7 @@ h6 {
     }
     .navbar-custom.top-nav-collapse { /** Nav Bar Colour **/
 	padding: 0;
-	background-color: #FEEA9F;
+	background-color: #5E92EF;
 	border-bottom: 1px solid rgba(255, 255, 255, .3)
     }
 }

@@ -60,10 +60,15 @@ a:hover {
 	background-image: url(../img/img_banner.jpg);
 }
 
+/** Navbar link colour **/
 .navbar-custom a {
-	color: #801515;
+	color: #5B0708;
 }
 
+/** Hover **/
+.navbar-custom .nav li a:hover {
+	color: #000000;
+}
 
 #schedule img {
 	width: 80%;
