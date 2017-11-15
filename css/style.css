@@ -53,14 +53,14 @@ a:hover {
 }
 
 .intro {
-	color: #801515;
+	color: #8B1010;
 	background-image: url(../img/img_banner.jpg);
-	background-size: cover; 
+	background-size: cover;
 }
 
 /** Navbar link colour **/
 .navbar-custom a {
-	color: #000000;
+	color: #004A87;
 }
 
 /** Hover **/
