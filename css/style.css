@@ -62,12 +62,12 @@ a:hover {
 
 /** Navbar link colour **/
 .navbar-custom a {
-	color: #5B0708;
+	color: #000000;
 }
 
 /** Hover **/
 .navbar-custom .nav li a:hover {
-	color: #000000;
+	color: #FFFFFF;
 }
 
 #schedule img {

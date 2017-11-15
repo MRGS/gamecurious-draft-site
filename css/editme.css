@@ -128,9 +128,10 @@ h6 {
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out
     }
-    .navbar-custom.top-nav-collapse { /** Nav Bar Colour **/
+    /** Nav Bar Colour **/
+	.navbar-custom.top-nav-collapse {
 	padding: 0;
-	background-color: #5E92EF;
+	background-color: rgba(249,215,186,0.88);
 	border-bottom: 1px solid rgba(255, 255, 255, .3)
     }
 }
