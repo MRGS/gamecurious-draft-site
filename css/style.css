@@ -86,3 +86,7 @@ a:hover {
 	background-image: url(../img/txt5.jpg);
 	background-size: 33% auto;
 }
+
+.safer-space-texts {
+	padding: 5px;
+}
