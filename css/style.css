@@ -5,7 +5,6 @@ body {
 	background-size: 25% 25%;
 	background-repeat: repeat;
 }
-
 h2 {
 	font-family: 'Vesper Libre', 'Palatino Linotype', serif;
 	text-transform: capitalize;
@@ -15,8 +14,6 @@ h2 {
 h3 {
 	margin-bottom: 15px;
 }
-
-
 p {
 	margin: 0 0 25px;
 	font-size: 18px;
@@ -25,54 +22,52 @@ p {
 	font-family: 'Noto Sans', sans-serif;
 	font-weight: normal;
 }
-
-
-
 p em {
 	font-family: Lora, serif;
 	font-size: 14pt;
 	font-weight: normal;
-
+}
+p a {
+	color: #8092eb;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	text-decoration: underline;
+}
+p a:focus, p a:hover {
+	text-decoration: underline;
+	color: #B00000
 }
 
-a {
-    color: #8092eb;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+@media (max-width:1366px) {
+	#faq h3 {
+		font-size: 22px;
+	}
+	p {
+	font-size: 16px;
+	}
 }
 
-a:focus,
-a:hover {
-    text-decoration: none;
-    color: #55619d
-}
-
-.intro-text{
+.intro-text {
 	text-align: center;
 }
-
 .intro {
 	color: #8B1010;
 	background-image: url(../img/img_banner.jpg);
 	background-size: cover;
 }
-
 /** Navbar link colour **/
 .navbar-custom a {
 	color: #004A87;
 }
-
 /** Hover **/
 .navbar-custom .nav li a:hover {
 	color: #FFFFFF;
 }
-
 #schedule img {
 	width: 80%;
 	height: 0%;
 	margin-bottom: 64px;
-
 }
 #location {
 	background-image: url(../img/txt6.jpg);
@@ -82,14 +77,13 @@ a:hover {
 	float: left;
 	margin-bottom: 60px;
 	border: medium solid #000000;
-
 }
 #location p {
 	text-align: center;
-
 }
-#saferspace   {
+#saferspace {
 	background-image: url(../img/txt5opaque.jpg);
 	background-size: 20% auto;
-}.row .col-lg-6.col-lg-offset-3 img {
+}
+.row .col-lg-6.col-lg-offset-3 img {
 }
