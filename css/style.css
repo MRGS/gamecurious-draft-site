@@ -46,6 +46,7 @@ p a:focus, p a:hover {
 	p {
 	font-size: 16px;
 	}
+	
 }
 
 .intro-text {
@@ -77,10 +78,22 @@ p a:focus, p a:hover {
 	float: left;
 	margin-bottom: 60px;
 	border: medium solid #000000;
+	height: 500px;
+
 }
+
+@media (min-width:1366px) {
+	#location iframe {
+	height: 700px;
+
+}
+
+}
+
 #location p {
 	text-align: center;
 }
+
 #saferspace {
 	background-image: url(../img/txt5opaque.jpg);
 	background-size: 20% auto;

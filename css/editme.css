@@ -182,6 +182,7 @@ h6 {
     .intro .intro-body .intro-text {
         font-size: 26px
     }
+	
 }
 
 .btn-circle {
@@ -275,10 +276,7 @@ h6 {
     .download-section {
         padding: 100px 0
     }
-    #map {
-        height: 400px;
-        margin-top: 250px
-    }
+    
 }
 
 .btn {
@@ -335,13 +333,13 @@ footer p {
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba(255, 255, 255, .2)
+	background-color: rgba(46,70,255,0.30)
 }
 
 ::selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255, 255, 255, .2)
+	text-shadow: none;
+	background: #fcfcfc;
+	background-color: rgba(46,70,255,0.30)
 }
 
 img::selection {
