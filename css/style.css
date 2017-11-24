@@ -63,7 +63,7 @@ p a:focus, p a:hover {
 }
 /** Hover **/
 .navbar-custom .nav li a:hover {
-	color: #FFFFFF;
+	color: #0085f0;
 }
 #schedule img {
 	width: 80%;
