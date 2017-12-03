@@ -63,7 +63,7 @@ p a:focus, p a:hover {
 }
 /** Hover **/
 .navbar-custom .nav li a:hover {
-	color: #FFFFFF;
+	color: #0085f0;
 }
 #schedule img {
 	width: 80%;
@@ -98,5 +98,16 @@ p a:focus, p a:hover {
 	background-image: url(../img/txt5opaque.jpg);
 	background-size: 20% auto;
 }
+
+#launchparty {
+	background-image: url(../img/txt3.jpg);
+	background-size: 20% auto;
+}
+
+#partners > div:nth-child(2) > div > a > img {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .row .col-lg-6.col-lg-offset-3 img {
 }
