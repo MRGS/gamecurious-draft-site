@@ -39,6 +39,13 @@ p a:focus, p a:hover {
 	color: #B00000
 }
 
+ul, ul li, li {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: normal;
+}
+
 @media (max-width:1366px) {
 	#faq h3 {
 		font-size: 22px;
