@@ -56,14 +56,35 @@ p a:focus, p a:hover {
 	
 }
 
+.intro-text-box {
+	margin-top: 30px;
+}
+
 .intro-text {
 	text-align: center;
 }
 .intro {
 	color: #8B1010;
-	background-image: url(../img/img_banner.jpg);
-	background-size: cover;
+	background-image: url(../img/text1long.png);
+	background-repeat: repeat;
+	background-size: contain;
+	z-index: 0;
 }
+
+#bluebirdleft {
+	position: absolute;
+	left: -510px;
+	bottom: -20px;
+	z-index: 1;
+}
+
+#pinkbirdright {
+	position: absolute;
+	right: -510px;
+	bottom: -20px;
+	z-index: 1;
+}
+
 /** Navbar link colour **/
 .navbar-custom a {
 	color: #004A87;
