@@ -6,13 +6,13 @@ To test out new Game Curious Montréal website themes
 
 Stuff that actually goes up on a staging or production site:
 
---index.html
+`--index.html
 --espacesecuritaire.html
 --faq.html
 --css
 --img
 --js
---vendor
+--vendor`
 
 *Stuff that should not go up to a staging or production site:*
 
