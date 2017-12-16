@@ -74,6 +74,9 @@ p a:focus, p a:hover {
 	background-image: url(../img/txt6.jpg);
 	background-size: 15% auto;
 }
+#location p {
+	text-align: justify;
+}
 #location iframe {
 	float: left;
 	margin-bottom: 60px;
@@ -88,10 +91,6 @@ p a:focus, p a:hover {
 
 }
 
-}
-
-#location p {
-	text-align: center;
 }
 
 #saferspace {
