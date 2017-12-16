@@ -39,7 +39,7 @@ p a:focus, p a:hover {
 	color: #B00000
 }
 
-ul, ul li, li {
+.schedule-list-item, .schedule-list {
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
